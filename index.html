@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/110d0ac009.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Ankit2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Ankit</span> Kumar</h1>
+            <h2>High level experience in web design<br>development knowledge,<br>producing quality work.</h2>
+        </div>
+    </div>
+</div>
+<!--------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMG_20221003_232553_816.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a dedicated, organized and methodical individual. I have good interpersonal
+                    skills, am an excellent team worker and am keen and very willing to learn and
+                    develop new skills. I am reliable and dependable and often seek new
+                    responsibilities within a wide range of employment areas. I have an active and
+                    dynamic approach to work and getting things done. I am determined and decisive.
+                    I identify and develop opportunities. Organized and dependable candidate
+                    successful at managing multiple priorities with a positive attitude. Willingness to
+                    take on added responsibilities to meet team goals.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Achievement</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web/App interfaces</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>Languages Known</span><br>C++ and Java</li>
+                            <li><span>Other Identities Known</span><br>Operating System , Database management System , CSS , HTML , Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Participations</span><br>Active participant in various coding contests on Codechef and Codeforces , Active participant in various designing competition , Flipkart 4.0 grid participant , Hackathon Participation , Participation at International Abacus Competition</li>
+                            <li><span>Winning Moments</span><br>Won some related designing competitions like Design-e-thon , Second Prize at Reginal Artistic Competition</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Under Graduate</span><br>Vellore Institute of Technology | Vellore | B-Tech | CGPA: 8.14</li>
+                            <li><span>Secondary Experience</span><br>Rajendra Vidyalaya | Jharkhand | ICSE | Percentage: 90.2
+                                </li>
+                            <li><span>Higher Secondary Experience</span><br>Rajendra Vidyalaya | Jharkhand | ISC | Percentage: 82</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------services--------------->
+<div id="services">
+    <div class="conitainer">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code" style="color: #ffffff;"></i>
+                <h2>Web Designer</h2>
+                <p>As a web designer, my goal is to create stunning and user-friendly interfaces that bring your brand to life. From wireframing to prototyping, I strive to deliver visually appealing and intuitive designs that engage your audience. With a focus on responsive design and accessibility, I ensure that your website is accessible to all users across devices. Let's work together to elevate your online presence and deliver an exceptional user experience.</p>
+                <a href="#">Learn more</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-paint-roller" style="color: #ffffff;"></i>
+                <h2>UI/UX Designer</h2>
+                <p>Here, you will find a showcase of my design skills and expertise in creating intuitive and visually appealing user interfaces. Each project demonstrates my ability to create user-centered designs that seamlessly blend functionality and aesthetics. Whether it's designing for desktop, mobile, or web platforms, my goal is always to create engaging and delightful experiences for users. Take a look around and feel free to contact me for any design inquiries or collaborations.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video" style="color: #ffffff;"></i>
+                <h2>Video Editor</h2>
+                <p>With a sleek and intuitive design, My skills would allowed you to easily import, edit, and export my videos with just a few clicks. Whether you're a professional filmmaker or a social media influencer, I would be having everything you need to create stunning, high-quality videos that will impress others as well.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pencil" style="color: #ffffff;"></i>
+                <h2>Graphic Designer</h2>
+                <p>Looking for clean and modern UI/UX design that captures attention and engages users? Look no further! I specialize in creating visually stunning and intuitive interfaces that are tailored to your specific needs. With a keen eye for detail and a passion for design, I strive to create designs that not only look great, but function seamlessly as well. From wireframes to prototypes, I work closely with clients to ensure their vision is realized and their goals are achieved. Let's bring your ideas to life!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="music.png">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>Introducing a music player that will revolutionize your listening experience! Our sleek and user-friendly interface makes it easy to navigate your music library and discover new artists. With seamless integration across devices and platforms, you can take your music with you wherever you go. Plus, our personalized playlists and recommendations ensure you're always discovering your next favorite song. From the design to the functionality, we've thought of everything to make your music listening experience the best it can be. Let's groove together!.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="cost-to-clone-social-media-app-11.jpg">
+                <div class="layer">
+                <h3>instagram Clone</h3>
+                    <p>Looking for an Instagram clone that captures the essence of the original app while also adding your own unique twist? Look no further! With my expertise in UI/UX design, I can create a visually stunning and user-friendly platform that will keep users engaged and coming back for more. From the sleek and intuitive interface to the seamless navigation and photo-sharing features, I'll ensure that your Instagram clone stands out from the crowd. Let's bring your vision to life and create an app that users will love to use every day!</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Cost-To-Develop-a-Live-Video-Streaming-Apps-like-Amazon-Prime-video-1024x52111.jpg">
+                <div class="layer">
+                <h3>Video Streaming Platform like Netflix or Amazon Prime</h3>
+                    <p>Are you looking to create a video streaming platform that provides users with a seamless viewing experience? Look no further! I specialize in designing UI/UX interfaces that are optimized for video streaming, ensuring that users can easily navigate through content and enjoy high-quality playback. From custom video players to intuitive search everything will be at single place</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>1412ankitkumar@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i> 8709513630</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100011756739995&mibextid=ZbWKwL
+                    "><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Ankitkumar_1412?t=8AHGAkfaKS1oFmba7jZ3Sg&s=09
+                    "><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ankit-kumar-64a1601bb"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/ankitkumar15_09?igshid=ZDdkNTZiNTM=
+                    "><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Ankit_Kumar_CV Updated.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copywrite @ Ankit. Made by Me with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwsS-VFTrN9cfwICZpoCN0tb6_l9vJGQcbfrAbHA0Py_nKTxAyYMWwBMSb1Haij3PVt/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message send successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
